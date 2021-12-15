@@ -1,0 +1,22 @@
+{
+  "kind": "singleType",
+  "collectionName": "homes",
+  "info": {
+    "name": "Home",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "hero_banner_alt_text": {
+      "type": "string"
+    },
+    "hero_url": {
+      "type": "string",
+      "default": "http://lauren.no/images/home.jpg"
+    }
+  }
+}
